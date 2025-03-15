@@ -39,7 +39,8 @@ function findPosNum(text){
 }
 
 function findDates(text){
-    const regEx = /\b(1\d{3}|20[0-2]\d).(0[1-9]|1[0-2]).(\d[1-9]|1[0-9]|2[0-9]|3[0-1])/gm;
+    const regEx =
+    /\b(1\d{3}|20[0-2]\d).(0[1-9]|1[0-2]).(\d[1-9]|1[0-9]|2[0-9]|3[0-1])/gm;
     const found = text.match(regEx);
     return found;
 }
