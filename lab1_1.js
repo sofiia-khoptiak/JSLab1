@@ -21,8 +21,3 @@ function findPrimes(a, b) {
   }
   return primes;
 }
-
-console.log(findPrimes(10, 30));
-console.log(isPrime(17));
-console.log(isInteger(10));
-console.log(isInteger(6.7));
